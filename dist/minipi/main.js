@@ -18,10 +18,9 @@ class VvsComponent {
     }
 }
 VvsComponent.ɵfac = function VvsComponent_Factory(t) { return new (t || VvsComponent)(); };
-VvsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: VvsComponent, selectors: [["app-vvs"]], decls: 3, vars: 0, consts: [["frameborder", "0", "marginwidth", "0", "marginheight", "0", "src", "https://dfisite.vvs.de/?default_stop=de%3A08111%3A27&time_offset=5&zoom_factor=0.5&rows=6&show_messages=1&show_position=0&lpm=400&lang=de&pk_campaign=entwicklertools&pk_kwd=abfahrtstafel", 2, "border", "0"], ["frameborder", "0", "marginwidth", "0", "marginheight", "0", "src", "https://dfisite.vvs.de/?default_stop=de%3A08111%3A372&time_offset=5&zoom_factor=0.5&rows=2&show_messages=1&show_position=0&lpm=400&lang=de&pk_campaign=entwicklertools&pk_kwd=abfahrtstafel", 2, "border", "0"]], template: function VvsComponent_Template(rf, ctx) { if (rf & 1) {
+VvsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: VvsComponent, selectors: [["app-vvs"]], decls: 2, vars: 0, consts: [["frameborder", "0", "marginwidth", "0", "marginheight", "0", "width", "469", "height", "253", "src", "https://dfisite.vvs.de/?default_stop=de%3A08111%3A27&time_offset=5&zoom_factor=0.5&rows=6&show_messages=1&show_position=0&lpm=400&lang=de&pk_campaign=entwicklertools&pk_kwd=abfahrtstafel", 2, "border", "0"], ["frameborder", "0", "marginwidth", "0", "marginheight", "0", "width", "469", "height", "130", "src", "https://dfisite.vvs.de/?default_stop=de%3A08111%3A372&time_offset=5&zoom_factor=0.5&rows=2&show_messages=1&show_position=0&lpm=400&lang=de&pk_campaign=entwicklertools&pk_kwd=abfahrtstafel", 2, "border", "0"]], template: function VvsComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "iframe", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "iframe", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "iframe", 1);
     } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJ2dnMuY29tcG9uZW50LmNzcyJ9 */"] });
 
 
