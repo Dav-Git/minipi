@@ -1,9 +1,16 @@
-<iframe frameborder="0" marginwidth="0" marginheight="0" style="border: 0;" width="700" height="450" position="absolute"
-    top="0" left="0" id="vvs"
-    src="https://dfisite.vvs.de/?default_stop=de%3A08111%3A27&time_offset=5&zoom_factor=1&rows=6&show_messages=1&show_position=0&lpm=400&lang=de&pk_campaign=entwicklertools&pk_kwd=abfahrtstafel"></iframe>
+<body style="background-color: black;">
+    <iframe frameborder="0" marginwidth="0" marginheight="0" style="border: 0; background: black;" width="700"
+        height="464" position="absolute" top="0" left="0" id="vvs"
+        src="https://dfisite.vvs.de/?default_stop=de%3A08111%3A27&time_offset=5&zoom_factor=1&rows=6&show_messages=1&show_position=0&lpm=400&lang=de&pk_campaign=entwicklertools&pk_kwd=abfahrtstafel"></iframe>
 
-<script>
-    setInterval(function () {
-        document.getElementById('vvs').src += "";
-    }, 30000);
-</script>
+    <script>
+        setInterval(function () {
+            document.getElementById('vvs').src += "";
+        }, 30000);
+    </script>
+</body>
+<style>
+    .departure-wrap {
+        background-color: black;
+    }
+</style>
